@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("background.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#ship{
+    margin: 0;
+    padding: 0;
+   
+}
+
+ img{
+    
+    margin: 0px;
+    padding: 0;
+}
+
+#pirate{
+    
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+#occean{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+@keyframes example{
+0%   {top: 0px; left: 0px;}
+100% {top: 0px; left: 1500px;}
+}
